@@ -22,6 +22,7 @@ ALLOWED_HOSTS = [
     "http://localhost:5173/",
     "127.0.0.1",
     ".vercel.app"
+    "*"
 ]
 
 # Application definition
