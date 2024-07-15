@@ -2,8 +2,8 @@
 # Exit on error
 set -o errexit
 
-pip install -upgrade pip
-pip install -upgrade setuptools wheel
+pip install pip
+pip install setuptools wheel
 
 # Modify this line as needed for your package manager (pip, poetry, etc.)
 pip install -r requirements.txt
